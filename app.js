@@ -22,7 +22,13 @@ app.get("/profiles/:id", (request, response) => {
 });
 
 app.post("/profiles", (request, response) => {
-    queries.create(request.body).then(profiles => {
+    queries.create1(request.body).then(profiles => {
+        response.status(201).json({profiles});
+    }).catch(console.error);
+});
+
+app.post("/comments", (request, response) => {
+    queries.create2(request.body).then(profiles => {
         response.status(201).json({profiles});
     }).catch(console.error);
 });
@@ -43,4 +49,4 @@ app.use((request, response) => {
     response.send(404);
 });
 
-app.listen(process.env.PORT || 3000);
+module.exports = app;

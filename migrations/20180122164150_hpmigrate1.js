@@ -15,7 +15,6 @@ exports.up = function(knex, Promise) {
     table.boolean('hogwartsStaff');
     table.boolean('alive')
     table.text('image');
-    table.json('comments');
   })
 };
 

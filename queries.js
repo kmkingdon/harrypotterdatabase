@@ -7,9 +7,15 @@ module.exports = {
     read(id){
       return database("harrypotter").select().where("id", id).first();
     },
-    create(profile){
+    create1(profile){
       return database("harrypotter")
             .insert(profile)
+            .returning("*")
+            .then(record => record[0]);
+    },
+    create2(comment){
+      return database("comments")
+            .insert(comment)
             .returning("*")
             .then(record => record[0]);
     },
