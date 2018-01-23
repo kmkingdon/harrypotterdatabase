@@ -8,7 +8,13 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get("/profiles", (request, response) => {
-    queries.list().then(profiles => {
+    queries.list1().then(profiles => {
+        response.json({profiles});
+    }).catch(console.error);
+});
+
+app.get("/comments", (request, response) => {
+    queries.list2().then(profiles => {
         response.json({profiles});
     }).catch(console.error);
 });

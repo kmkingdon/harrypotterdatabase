@@ -1,8 +1,11 @@
 const database = require("./database-connection");
 
 module.exports = {
-    list(){
+    list1(){
       return database("harrypotter").select();
+    },
+    list2(){
+      return database("comments").select();
     },
     read(id){
       return database("harrypotter").select().where("id", id).first();
