@@ -12,16 +12,16 @@ app.get("/profiles", (request, response) => {
 });
 
 app.get("/profiles/:id", (request, response) => {
-    queries.read(request.params.id).then(game => {
-        game
-            ? response.json({game})
+    queries.read(request.params.id).then(profiles => {
+        profiles
+            ? response.json({profiles})
             : response.sendStatus(404)
     }).catch(console.error);
 });
 
 app.post("/profiles", (request, response) => {
-    queries.create(request.body).then(game => {
-        response.status(201).json({game});
+    queries.create(request.body).then(profiles => {
+        response.status(201).json({profiles});
     }).catch(console.error);
 });
 
@@ -32,8 +32,8 @@ app.delete("/profiles/:id", (request, response) => {
 });
 
 app.put("/profiles/:id", (request, response) => {
-    queries.update(request.params.id, request.body).then(game => {
-        response.json({game});
+    queries.update(request.params.id, request.body).then(profiles => {
+        response.json({profiles});
     }).catch(console.error);
 });
 
