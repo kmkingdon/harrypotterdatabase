@@ -1,5 +1,5 @@
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable("harrypotter", table => {
+  return knex.schema.createTable('harrypotter', table => {
     table.increments('id').primary();
     table.text('name');
     table.text('species');
