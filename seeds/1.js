@@ -18,8 +18,7 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/harry.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/harry.jpg"
           },
           {id:2,
             name: "Hermione Granger",
@@ -35,8 +34,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/hermione.jpeg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/hermione.jpeg"
+
           },
           {id:3,
             name: "Ron Weasley",
@@ -52,8 +51,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/ron.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/ron.jpg"
+
           },
           {id:4,
             name: "Draco Malfoy",
@@ -69,8 +68,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/draco.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/draco.jpg"
+
           },
           {id:5,
             name: "Minerva McGonagall",
@@ -86,8 +85,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: true,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/mcgonagall.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/mcgonagall.jpg"
+
           },
           {id: 6,
             name: "Cedric Diggory",
@@ -103,8 +102,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: false,
-            image: "http://hp-api.herokuapp.com/images/cedric.png",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/cedric.png"
+
           },
           {id: 7,
             name: "Cho Chang",
@@ -120,8 +119,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/cho.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/cho.jpg"
+
           },
           { id: 8,
             name: "Severus Snape",
@@ -137,8 +136,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: true,
             alive: false,
-            image: "http://hp-api.herokuapp.com/images/snape.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/snape.jpg"
+
           },
           {id: 9,
             name: "Rubeus Hagrid",
@@ -154,8 +153,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: true,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/hagrid.png",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/hagrid.png"
+
           },
           {id: 10,
             name: "Neville Longbottom",
@@ -171,8 +170,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/neville.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/neville.jpg"
+
           },
           {id: 11,
             name: "Luna Lovegood",
@@ -188,8 +187,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/luna.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/luna.jpg"
+
           },
           {id:12,
             name: "Ginny Weasley",
@@ -205,8 +204,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/ginny.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/ginny.jpg"
+
           },
           {id: 13,
             name: "Sirius Black",
@@ -222,8 +221,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: false,
             alive: false,
-            image: "http://hp-api.herokuapp.com/images/sirius.JPG",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/sirius.JPG"
+
           },
           { id: 14,
             name: "Remus Lupin",
@@ -239,8 +238,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: true,
             alive: false,
-            image: "http://hp-api.herokuapp.com/images/lupin.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/lupin.jpg"
+
           },
           { id: 15,
             name: "Arthur Weasley",
@@ -256,8 +255,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/arthur.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/arthur.jpg"
+
           },
           { id: 16,
             name: "Bellatrix Lestrange",
@@ -273,8 +272,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: false,
             alive: false,
-            image: "http://hp-api.herokuapp.com/images/bellatrix.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/bellatrix.jpg"
+
           },
           {id: 17,
             name: "Lord Voldemort",
@@ -290,8 +289,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: false,
             alive: false,
-            image: "http://hp-api.herokuapp.com/images/voldemort.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/voldemort.jpg"
+
           },
           {id: 18,
             name: "Horace Slughorn",
@@ -308,8 +307,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: true,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/slughorn.JPG",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/slughorn.JPG"
+
           },
           { id: 19,
             name: "Kingsley Shacklebolt",
@@ -326,8 +325,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/kingsley.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/kingsley.jpg"
+
           },
           { id: 20,
             name: "Dolores Umbridge",
@@ -344,8 +343,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: true,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/umbridge.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/umbridge.jpg"
+
           },
           { id: 21,
             name: "Lucius Malfoy",
@@ -361,8 +360,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/lucius.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/lucius.jpg"
+
           },
           { id: 22,
             name: "Vincent Crabbe",
@@ -379,8 +378,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: false,
-            image: "http://hp-api.herokuapp.com/images/crabbe.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/crabbe.jpg"
+
           },
           {id: 23,
             name: "Gregory Goyle",
@@ -397,8 +396,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: true,
             hogwartsStaff: false,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/goyle.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/goyle.jpg"
+
           },
           {id: 24,
             name: "Mrs Norris",
@@ -415,8 +414,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: true,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/norris.JPG",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/norris.JPG"
+
           },
           {id: 25,
             name: "Argus Filch",
@@ -424,7 +423,7 @@ exports.seed = function(knex, Promise) {
             gender: "male",
             house: "",
             dateOfBirth: "",
-        
+
             ancestry: "squib",
             eyeColour: "",
             hairColour: "grey",
@@ -433,8 +432,8 @@ exports.seed = function(knex, Promise) {
             hogwartsStudent: false,
             hogwartsStaff: true,
             alive: true,
-            image: "http://hp-api.herokuapp.com/images/filch.jpg",
-            comments: {}
+            image: "http://hp-api.herokuapp.com/images/filch.jpg"
+
           }
         ])
         .then(() => {
@@ -442,7 +441,3 @@ exports.seed = function(knex, Promise) {
         });
     });
 };
-
-[
-
-];
